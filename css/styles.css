@@ -47,3 +47,52 @@ body {
   text-decoration: none;
   color: black;
 }
+
+.hero-background{
+  background: url(../img/backgrond.jpg);
+}
+.hero-container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.hero-image{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.hero-text{
+
+  width: 504px;
+  height: 319px;
+}
+
+.hero-cv-link{
+  text-decoration: none;
+  color: #018AD9;
+}
+
+.hero-heading{
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',serif;
+  font-size: 70px;
+  line-height: 1;
+  color: #000;
+}
+
+.hero-link{
+  text-decoration: none;
+  display: inline-block;
+  background-color: #3ECF8E;
+  color: #fff;
+  padding: 15px 17px;
+  border-radius: 35px;
+}
