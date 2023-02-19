@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-
+*:focus{
+  outline: 2px dotted #3ecf8e;
+  outline-offset: 2px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
