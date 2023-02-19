@@ -134,17 +134,17 @@ hr{
   padding-top: 50px;
 }
 
+.about-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .about{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   margin-left: auto;
   margin-right: auto;
-}
-.about-part{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 
@@ -185,4 +185,25 @@ hr{
   font-size: 16px;
   color: #646464;
   margin: 0;
+}
+
+.portfolio{
+  width: 100%;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.header-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #646464;
 }
