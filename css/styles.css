@@ -95,17 +95,22 @@ body {
 }
 
 .hero-link{
-  text-decoration: none;
   display: inline-block;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-decoration: none;
   background-color: #3ECF8E;
   color: #fff;
-  padding: 15px 17px;
+  border-radius: 2px solid #3ecf8e;
+  padding: 13px 15px;
   border-radius: 35px;
 }
 
 .hero-link:hover{
+  background-color: #fff;
   transition: 0.6s ease;
-  color: #000;
+  border: 2px solid #3ecf8e;
+  color: #3ECF8E;
 }
 
 .socials{
