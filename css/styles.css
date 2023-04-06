@@ -116,6 +116,8 @@ body {
   color: #3ECF8E;
 }
 
+
+
 .socials{
   width: 100%;
   max-width: 1360px;
@@ -225,4 +227,21 @@ hr{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #646464;
+}
+
+.first-block{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.second-block{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 54px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
 }
